@@ -1,0 +1,7 @@
+print = ("===================")
+text1 = ("Program Quiz")
+print = ("===================")
+text2 = input (" masukan Nama : ")
+text3 = input ("masukan Nim : ")
+print = ( text1 + text2 + text3 )
+print = ("===================")
