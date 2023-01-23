@@ -1,0 +1,19 @@
+import tkinter as tk
+
+# Membuat objek root
+root = tk.Tk()
+
+# Mengatur judul dan ukuran jendela
+root.title("Contoh GUI Tkinter")
+root.geometry("300x100")
+
+# Membuat label
+label = tk.Label(root, text="assalamualaikum")
+label.pack()
+
+# Membuat tombol
+button = tk.Button(root, text="Tekan Sini", command=root.destroy)
+button.pack()
+
+# Menjalankan GUI
+root.mainloop()
