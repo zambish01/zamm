@@ -1,10 +1,7 @@
-def pangkat(x,y):
-   if y == 0:
-      return 1
-   else:
-      return x * pangkat(x,y-1)
+def division(a, b):
+  try:
+    print("{0} / {1} = {2}".format(a, b, a / b))
+  except ZeroDivisionError:
+    print("Tidak bisa membagi angka dengan 0")
 
-x = int(input("Masukan Nilai X : "))
-y = int(input("Masukan Nilai Y : "))
-
-print("%d dipangkatkan %d = %d" % (x,y,pangkat(x,y)))
+division(1,0)
